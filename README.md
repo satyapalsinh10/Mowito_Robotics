@@ -7,7 +7,7 @@
  - OpenCV
  - NumPy
 
-### Installation
+### Installation steps
 
 - **Clone the repository:**
 
@@ -71,3 +71,33 @@
 ---
 
 ---
+
+
+
+## Methond_3 : `Point_CLoud_Registration Using GO-ICP`
+
+You can find more about Go-ICP Cython implementation [here](https://github.com/aalavandhaann/go-icp_cython).
+
+### Installation steps
+
+- **Clone the repository:**
+
+`git clone https://github.com/aalavandhaann/go-icp_cython.git`
+
+`cd go-icp_cython`
+
+`pip install cython`
+
+`python setup.py build_ext --inplace`
+
+`python setup.py install`
+
+`pip install py-goicp`
+
+
+
+
+
+
+
+
