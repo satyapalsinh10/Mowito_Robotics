@@ -117,34 +117,28 @@ You can find more about Go-ICP Cython implementation [here](https://github.com/a
 
 ## Methond_4: `SAM based GO-ICP`
 
-You can find more about SAM implementation [here](https://github.com/aalavandhaann/go-icp_cython).
+You can find more about SAM implementation [here](https://github.com/facebookresearch/segment-anything).
 
 ### Installation Instructions
 
 `cd go-icp_cython`
 
-`pip install opencv-python`
+`pip install sam_requirements.txt`
 
-`pip install pandas`
+- **Create a directory named sam_weights in the current working directory**
+  
+`mkdir -p sam_weights`
 
-`pip install open3d`
-
-`pip install matplotlib`
-
-`pip install cython`
-
-`python setup.py build_ext --inplace`
-
-`python setup.py install`
-
-`pip install py-goicp`
+- **Download the weight file and save it in the sam_weights directory**
+  
+`wget -q https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth -P sam_weights`
 
 
 ### Usage
 
 - **Run the script:**
 
-1. `python img2csv_coord.py` - **Run this step for both the `template.jpg` and `test.jpg` to generate independent .txt files consisting all the points which will be used in the following steps.**
+1. `python sam_img2pts.py` - **Define paths for both the `template.jpg` and `test.jpg` one by one to generate independent .txt files consisting all the points which will be used in the following steps.**
 
 2. `python test.py` - **Implement the template.txt and test.txt path in the file and run the file to generate the final rotation using ICP**
 
