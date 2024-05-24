@@ -10,23 +10,25 @@
 
 ### Installation
 
-`Clone the repository:`
+- **Clone the repository:**
 
-- git clone https://github.com/satyapalsinh10/Mowito_Robotics.git
-- cd /Mowito_Robotics`
+`git clone https://github.com/satyapalsinh10/Mowito_Robotics.git`
+
+`cd /Mowito_Robotics`
 
 
-`Install the required packages:`
+- **Install the required packages:**
 
-- pip install numpy
-- pip install opencv-python
+`pip install numpy`
+
+`pip install opencv-python`
 
 
 ### Usage
 
-`Run the script:`
+- **Run the script:**
 
-- python script.py
+`python script.py`
 
 1. A window displaying the template image will appear. Click on corresponding points on the template image. Each click will mark a point with a green circle.
 
