@@ -115,9 +115,9 @@ You can find more about Go-ICP Cython implementation [here](https://github.com/a
 
 
 
-## Methond_3 : `SAM based GO-ICP`
+## Methond_4: `SAM based GO-ICP`
 
-You can find more about SAM Cython implementation [here](https://github.com/aalavandhaann/go-icp_cython).
+You can find more about SAM implementation [here](https://github.com/aalavandhaann/go-icp_cython).
 
 ### Installation Instructions
 
