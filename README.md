@@ -103,16 +103,11 @@ You can find more about Go-ICP Cython implementation [here](https://github.com/a
 
 - **Run the script:**
 
-1. `python img2csv_coord.py` - Run this step for both the `template.jpg` and `test.jpg` to generate independent .txt file consisting all the points which will be used in the following steps.
+1. `python img2csv_coord.py` - **Run this step for both the `template.jpg` and `test.jpg` to generate independent .txt files consisting all the points which will be used in the following steps.**
 
-1. A window displaying the template image will appear. Click on corresponding points on the template image. Each click will mark a point with a green circle.
+2. `python test.py` - **Implement the template.txt and test.txt path in the file and run the file to generate the final rotation using ICP**
 
-2. Press the 'n' key to switch to the test image. Select the corresponding points on the test image.
-
-3. Press the 'q' key when you are done selecting points.
-
-4. The script will compute the homography matrix and print the rotation angle between the template and test images.
-
+3. `python visualizer_transf.py`  - **Implement the template.txt path and a data_transformed.ply file path and run this file to visualize the final ICP registered**
 
 
 
