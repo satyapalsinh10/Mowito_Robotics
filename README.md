@@ -138,11 +138,11 @@ You can find more about SAM implementation [here](https://github.com/facebookres
 
 - **Run the script:**
 
-1. `python sam_img2pts.py` - **Define paths for both the `template.jpg` and `test.jpg` one by one to generate independent .txt files consisting all the points which will be used in the following steps.**
+1. `python sam_img2pts.py` - **Define paths for both the `template.jpg` and `test.jpg` one by one to generate independent `.txt` files consisting all the points which will be used in the following steps.**
 
-2. `python test.py` - **Implement the template.txt and test.txt path in the file and run the file to generate the final rotation using ICP**
+2. `python test.py` - **Implement the `template.txt` and `test.txt` path in the file and run the file to generate the `final rotation` using ICP**
 
-3. `python visualizer_transf.py`  - **Implement the template.txt path and a data_transformed.ply file path and run this file to visualize the final ICP registered**
+3. `python visualizer_transf.py`  - **Implement the `template.txt` path and a `data_transformed.ply` file path and run this file to visualize the final ICP registered**
 
 
 
